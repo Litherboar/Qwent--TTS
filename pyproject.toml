@@ -39,6 +39,7 @@ qwen_voice_cloning = ["hatchling", "editables"]
 
 [tool.ruff]
 lint.select = ["ALL"]
+lint.ignore = ["ASYNC240", "CPY001", "FURB110", "RUF100"]
 preview = false
 
 [[tool.uv.index]]
